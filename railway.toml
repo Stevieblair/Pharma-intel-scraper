@@ -1,0 +1,2 @@
+[deploy]
+startCommand = "python nhs_tariff_scraper.py"
