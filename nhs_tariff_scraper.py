@@ -76,7 +76,7 @@ def fetch_tariff_price(drug):
         search_url = f"{BASE_URL}/#/0/A"
         params = {"q": search_term}
         r = requests.get(
-            f"{BASE_URL}/api/drugtariff/search",
+    f"{BASE_URL}/api/drugTariff/v1/drugs",
             params={"searchText": search_term, "tariffType": "A"},
             headers=HEADERS,
             timeout=15
